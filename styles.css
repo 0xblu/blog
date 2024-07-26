@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Figtree";
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.main {
+  background-color: hsl(47, 88%, 63%);
+  height: 100vh;
+}
+
+.container-blog {
+  width: 370px;
+  padding: 20px 17px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 10px 10px hsl(0, 0%, 7%);
+  border: 1px solid hsl(0, 0%, 7%);
+}
+
+.image-illustration-article {
+  border-radius: 8px;
+}
+
+.category {
+  font-weight: 800;
+  background-color: hsl(47, 88%, 63%);
+  display: inline-block;
+  margin: 20px 0 15px 2px;
+  padding: 6px 11px;
+  border-radius: 5px;
+}
+
+.date {
+  margin-bottom: 20px;
+}
+.title {
+  margin-bottom: 20px;
+  font-weight: 800;
+  font-size: 25px;
+  transition: all 0.2s;
+}
+
+.title:hover {
+  color: hsl(47, 88%, 63%);
+}
+
+.description {
+  color: hsl(0, 0%, 42%);
+}
+
+.image-avatar {
+  width: 30px;
+  height: 30px;
+}
+
+.author {
+  font-weight: 800;
+  padding-left: 10px;
+  font-stretch: expanded;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  margin-left: 8px;
+  text-align: center;
+}
+
+.container-avatar {
+  display: flex;
+  align-items: center;
+  padding: 20px 0px 10px 0px;
+}
