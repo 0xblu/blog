@@ -13,7 +13,8 @@
 }
 
 .container-blog {
-  width: 370px;
+  width: 90%;
+  max-width: 360px;
   padding: 20px 17px;
   position: absolute;
   top: 50%;
@@ -27,6 +28,7 @@
 
 .image-illustration-article {
   border-radius: 8px;
+  width: 100%;
 }
 
 .category {
@@ -50,6 +52,7 @@
 
 .title:hover {
   color: hsl(47, 88%, 63%);
+  cursor: pointer;
 }
 
 .description {
